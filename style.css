@@ -50,6 +50,11 @@ footer {
   justify-content: space-around;
 }
 
+.container,
+.wrapper {
+  margin: 0 auto;
+}
+
 /* text decoration */
 #otto {
   font-size: 100px;
@@ -128,6 +133,7 @@ footer {
   margin-bottom: 50px;
 }
 .webpages {
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
