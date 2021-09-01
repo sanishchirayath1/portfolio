@@ -53,6 +53,7 @@ footer {
 .container,
 .wrapper {
   margin: 0 auto;
+  max-width: 1200px;
 }
 
 /* text decoration */
@@ -109,7 +110,7 @@ footer {
 .projects,
 .contact {
   padding: 25px;
-  width: 90%;
+  width: auto;
   margin: 0 auto;
 }
 
@@ -125,8 +126,7 @@ footer {
   text-decoration: none;
   color: white;
   margin: 5px;
-  min-width: 70px;
-  text-align: center;
+  min-width: 60px;
 }
 
 #projects h2 {
@@ -149,12 +149,11 @@ footer {
 }
 
 .social {
-  max-width: 60%;
   padding-top: 50px;
   display: flex;
   margin: 0 auto;
-  justify-content: space-evenly;
-  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .social a {
