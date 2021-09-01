@@ -1,7 +1,7 @@
 body {
   margin: 0;
   width: auto;
-  min-width: 500px;
+  /* min-width: 500px; */
   text-align: center;
   font-family: "Roboto", sans-serif;
   color: white;
